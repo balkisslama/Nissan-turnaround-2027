@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large raw downloads (keep small, hand-built CSVs tracked)
+data/raw/*.zip
+
+# Local database is rebuilt by scripts, so it is not versioned
+data/processed/*.db
