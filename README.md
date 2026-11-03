@@ -56,7 +56,7 @@ nissan-turnaround-2027/
 ## 5. How to Reproduce
 
 ```bash
-git clone https://github.com/<Balkis Slama>/nissan-turnaround-2027.git
+git clone https://github.com/Balkis Slama/nissan-turnaround-2027.git
 cd nissan-turnaround-2027
 python -m venv .venv
 source .venv/bin/activate        # Windows PowerShell: .venv\Scripts\Activate.ps1
