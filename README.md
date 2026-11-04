@@ -66,21 +66,41 @@ python src/check_setup.py
 
 ## 6. Data Sources
 
-| Source                                              | Used for                                |
-| --------------------------------------------------- | --------------------------------------- |
-| Nissan Investor Relations (nissan-global.com/EN/IR) | Financials, volumes, regional results   |
-| FuelEconomy.gov (US EPA / DOE)                      | US lineup and powertrain mix comparison |
-| IEA Global EV Data Explorer                         | EV market growth by country             |
-| Yahoo Finance                                       | Share prices of Nissan and peers        |
-| FRED                                                | USD/JPY exchange rate                   |
+Full details, links and limitations: [`docs/data_sources.md`](docs/data_sources.md).
+Column definitions: [`docs/data_dictionary.md`](docs/data_dictionary.md).
+
+| Source                                          | Used for                                                                               |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Nissan Investor Relations and Securities Report | Financials FY2021-FY2025, regional results, volumes, FY2026 outlook, Re:Nissan targets |
+| Yahoo Finance                                   | Daily share prices of Nissan, Toyota, Honda, Mazda, Subaru                             |
+| FRED (St. Louis Fed)                            | USD/JPY exchange rate                                                                  |
+| Our World in Data / IEA                         | Electric car sales by country                                                          |
 
 > **Note on fiscal years:** Nissan's FY2025 = April 2025 - March 2026.
 
-## 7. Key Findings
+### Data quality
+
+Hand-collected figures are verified by an automated script
+(`python src/validate_raw_data.py`) that checks structure, duplicates, source
+references, whether regional figures add up to group totals, and whether
+computed margins match Nissan's published margins.
+
+## 7. Project Progress
+
+- [x] Step 1: Environment and repository setup
+- [x] Step 2: Data acquisition and validation
+- [ ] Step 3: Data model (SQL)
+- [ ] Step 4: ETL and cleaning
+- [ ] Step 5: SQL analysis
+- [ ] Step 6-10: Python analysis, Excel scenario model, recommendations
+- [ ] Step 11: Power BI dashboard
+- [ ] Step 12-14: Report, slides, final polish
+
+## 8. Key Findings
 
 _To be completed at the end of the project._
 
-## 8. Author
+## 9. Author
 
-**Balkis Slama**: Software Engineer, AI/ML Engineer and Data Scientist
-[LinkedIn](https://www.linkedin.com/in/balkis-slama-8493b42ba/) - [GitHub](https://github.com/balkisslama)
+**<Your Name>**: Software Engineer, AI/ML Engineer and Data Scientist
+[LinkedIn](https://www.linkedin.com/in/your-profile) - [GitHub](https://github.com/your-username)
