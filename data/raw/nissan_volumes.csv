@@ -1,0 +1,59 @@
+period_id,metric,market,market_level,units_thousand,note,source_ids
+Q1_FY2025,retail_sales,Japan,region,87,,SUM-Q1FY2026
+Q1_FY2025,retail_sales,North America,region,315,,SUM-Q1FY2026
+Q1_FY2025,retail_sales,USA,country,221,part of North America,SUM-Q1FY2026
+Q1_FY2025,retail_sales,Europe,region,75,,SUM-Q1FY2026
+Q1_FY2025,retail_sales,Asia,region,150,includes Oceania,SUM-Q1FY2026
+Q1_FY2025,retail_sales,China,country,121,part of Asia; Jan-Mar figures,SUM-Q1FY2026
+Q1_FY2025,retail_sales,Others,region,81,,SUM-Q1FY2026
+Q1_FY2025,retail_sales,Total,total,707,,SUM-Q1FY2026
+Q1_FY2026,retail_sales,Japan,region,88,,SUM-Q1FY2026
+Q1_FY2026,retail_sales,North America,region,328,,SUM-Q1FY2026
+Q1_FY2026,retail_sales,USA,country,243,part of North America,SUM-Q1FY2026
+Q1_FY2026,retail_sales,Europe,region,64,,SUM-Q1FY2026
+Q1_FY2026,retail_sales,Asia,region,154,includes Oceania,SUM-Q1FY2026
+Q1_FY2026,retail_sales,China,country,130,part of Asia; Jan-Mar figures,SUM-Q1FY2026
+Q1_FY2026,retail_sales,Others,region,66,,SUM-Q1FY2026
+Q1_FY2026,retail_sales,Total,total,701,,SUM-Q1FY2026
+FY2025,retail_sales,Japan,region,399,,SUM-Q1FY2026
+FY2025,retail_sales,North America,region,1291,,SUM-Q1FY2026
+FY2025,retail_sales,USA,country,906,part of North America,SUM-Q1FY2026
+FY2025,retail_sales,Europe,region,317,,SUM-Q1FY2026
+FY2025,retail_sales,Asia,region,775,includes Oceania,SUM-Q1FY2026
+FY2025,retail_sales,China,country,653,part of Asia; Jan-Dec 2025 figures,SUM-Q1FY2026
+FY2025,retail_sales,Others,region,369,,SUM-Q1FY2026
+FY2025,retail_sales,Total,total,3151,,SUM-Q1FY2026
+FY2026F,retail_sales,Japan,region,430,forecast,SUM-Q1FY2026
+FY2026F,retail_sales,North America,region,1320,forecast,SUM-Q1FY2026
+FY2026F,retail_sales,Europe,region,340,forecast,SUM-Q1FY2026
+FY2026F,retail_sales,China,country,580,forecast,SUM-Q1FY2026
+FY2026F,retail_sales,Others incl. Asia ex-China,region,480,forecast; NOT comparable with actual Others,SUM-Q1FY2026
+FY2026F,retail_sales,Total,total,3150,forecast,SUM-Q1FY2026
+Q1_FY2025,production,Japan,region,134,,SUM-Q1FY2026
+Q1_FY2025,production,North America,region,281,,SUM-Q1FY2026
+Q1_FY2025,production,Europe,region,60,,SUM-Q1FY2026
+Q1_FY2025,production,Asia,region,167,,SUM-Q1FY2026
+Q1_FY2025,production,Others,region,31,,SUM-Q1FY2026
+Q1_FY2025,production,Total,total,673,,SUM-Q1FY2026
+Q1_FY2026,production,Japan,region,138,,SUM-Q1FY2026
+Q1_FY2026,production,North America,region,280,,SUM-Q1FY2026
+Q1_FY2026,production,Europe,region,55,,SUM-Q1FY2026
+Q1_FY2026,production,Asia,region,142,,SUM-Q1FY2026
+Q1_FY2026,production,Others,region,31,,SUM-Q1FY2026
+Q1_FY2026,production,Total,total,646,,SUM-Q1FY2026
+FY2025,production,Japan,region,558,,SUM-Q1FY2026
+FY2025,production,North America,region,1117,,SUM-Q1FY2026
+FY2025,production,Europe,region,279,,SUM-Q1FY2026
+FY2025,production,Asia,region,824,,SUM-Q1FY2026
+FY2025,production,Others,region,125,,SUM-Q1FY2026
+FY2025,production,Total,total,2903,,SUM-Q1FY2026
+FY2026F,production,Total,total,2800,forecast; no regional split published,SUM-Q1FY2026
+Q1_FY2025,wholesale,Japan,segment,94,consolidated basis,SUM-Q1FY2026
+Q1_FY2025,wholesale,Overseas,segment,485,consolidated basis,SUM-Q1FY2026
+Q1_FY2025,wholesale,Total,total,578,consolidated basis,SUM-Q1FY2026
+Q1_FY2026,wholesale,Japan,segment,87,consolidated basis,SUM-Q1FY2026
+Q1_FY2026,wholesale,Overseas,segment,461,consolidated basis,SUM-Q1FY2026
+Q1_FY2026,wholesale,Total,total,548,consolidated basis,SUM-Q1FY2026
+FY2025,wholesale,Japan,segment,385,consolidated basis,SUM-Q1FY2026
+FY2025,wholesale,Overseas,segment,2049,consolidated basis,SUM-Q1FY2026
+FY2025,wholesale,Total,total,2435,consolidated basis,SUM-Q1FY2026

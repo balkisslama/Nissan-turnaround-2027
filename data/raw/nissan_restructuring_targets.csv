@@ -1,0 +1,18 @@
+metric_id,description,value,unit,as_of,source_ids
+cost_savings_target,Total cost reduction target vs FY2024 (fixed + variable),500,JPY_bn,2025-05,SR-FY2025
+fixed_cost_savings_fy2025,Fixed cost reduction achieved by end of FY2025,200,JPY_bn,2026-03-31,SR-FY2025
+variable_cost_savings_fy2025,Variable cost reduction achieved by end of FY2025,55,JPY_bn,2026-03-31,SR-FY2025
+savings_q1_fy2026,Re:Nissan savings realised in Q1 FY2026 (mostly variable cost),60,JPY_bn,2026-06-30,SUM-Q1FY2026
+plants_before,Vehicle production plants before consolidation,17,count,2025-05,SR-FY2025
+plants_target,Vehicle production plants targeted by end of FY2027,10,count,2028-03-31,SR-FY2025
+capacity_before,Global production capacity before Re:Nissan (excluding China),3500,thousand_units,2025-05,AMS-OPPAMA
+capacity_target,Global production capacity target (excluding China),2500,thousand_units,2028-03-31,AMS-OPPAMA
+workforce_reduction_target,Planned global workforce reduction (about 15 percent),20000,employees,2025-05,MOTOR1-RENISSAN
+employees_fy2024,Consolidated employees at end of FY2024,132790,employees,2025-03-31,SR-FY2025
+employees_fy2025,Consolidated employees at end of FY2025,120079,employees,2026-03-31,SR-FY2025
+models_before,Global product portfolio before streamlining,56,count,2026-04,SR-FY2025
+models_target,Global product portfolio target,45,count,2026-04,SR-FY2025
+auto_fcf_fy2025,Automotive free cash flow FY2025,-480.8,JPY_bn,2026-03-31,SR-FY2025
+auto_net_cash_fy2025,Automotive net cash at end of FY2025,1170.4,JPY_bn,2026-03-31,SR-FY2025
+volume_outlook_original_fy2026,FY2026 retail volume outlook before revision,3300,thousand_units,2026-05,SUM-Q1FY2026
+volume_outlook_revised_fy2026,FY2026 retail volume outlook after revision (3 Aug 2026),3150,thousand_units,2026-08-03,SUM-Q1FY2026
