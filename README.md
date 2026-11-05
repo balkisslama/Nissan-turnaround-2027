@@ -85,22 +85,37 @@ Hand-collected figures are verified by an automated script
 references, whether regional figures add up to group totals, and whether
 computed margins match Nissan's published margins.
 
-## 7. Project Progress
+## 7. Data Model
+
+The analysis runs on a **star schema** in SQLite: 7 fact tables (financials,
+regional results, volumes, restructuring targets, share prices, FX, EV sales)
+around 5 dimensions (period, geography, company, date, source). The database
+enforces data quality itself through primary keys, foreign keys and CHECK
+rules, which are covered by 37 automated tests.
+
+```powershell
+python src/create_database.py    # builds data/processed/nissan.db
+python src/test_schema.py        # proves the schema rejects bad data
+```
+
+Diagram, table grains and design decisions: [`docs/data_model.md`](docs/data_model.md).
+
+## 8. Project Progress
 
 - [x] Step 1: Environment and repository setup
 - [x] Step 2: Data acquisition and validation
-- [ ] Step 3: Data model (SQL)
+- [x] Step 3: Data model (SQL star schema)
 - [ ] Step 4: ETL and cleaning
 - [ ] Step 5: SQL analysis
 - [ ] Step 6-10: Python analysis, Excel scenario model, recommendations
 - [ ] Step 11: Power BI dashboard
 - [ ] Step 12-14: Report, slides, final polish
 
-## 8. Key Findings
+## 9. Key Findings
 
 _To be completed at the end of the project._
 
-## 9. Author
+## 10. Author
 
 **<Your Name>**: Software Engineer, AI/ML Engineer and Data Scientist
 [LinkedIn](https://www.linkedin.com/in/your-profile) - [GitHub](https://github.com/your-username)
