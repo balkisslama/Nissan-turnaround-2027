@@ -78,7 +78,7 @@ Column definitions: [`docs/data_dictionary.md`](docs/data_dictionary.md).
 
 > **Note on fiscal years:** Nissan's FY2025 = April 2025 - March 2026.
 
-### Data quality
+### Raw data quality
 
 Hand-collected figures are verified by an automated script
 (`python src/validate_raw_data.py`) that checks structure, duplicates, source
@@ -91,31 +91,54 @@ The analysis runs on a **star schema** in SQLite: 7 fact tables (financials,
 regional results, volumes, restructuring targets, share prices, FX, EV sales)
 around 5 dimensions (period, geography, company, date, source). The database
 enforces data quality itself through primary keys, foreign keys and CHECK
-rules, which are covered by 37 automated tests.
-
-```powershell
-python src/create_database.py    # builds data/processed/nissan.db
-python src/test_schema.py        # proves the schema rejects bad data
-```
+rules, covered by 37 automated tests.
 
 Diagram, table grains and design decisions: [`docs/data_model.md`](docs/data_model.md).
 
-## 8. Project Progress
+## 8. ETL Pipeline
+
+One command rebuilds the whole database from the raw files and proves it is
+correct:
+
+```powershell
+python src/run_etl.py
+```
+
+It builds the empty database, loads the dimensions, Nissan's results and the
+market data, then runs 45 checks, including a "round trip" that compares every
+stored value with the raw files and an independent second cleaning of the
+market data. Cleaning rules (for example dropping exchange-holiday share price
+rows) are documented in [`docs/etl_notes.md`](docs/etl_notes.md).
+
+In total the project runs **119 automated checks** (37 on raw data, 37 on the
+database rules, 45 in the pipeline).
+
+## 9. Early Observations (from the database, preliminary)
+
+- Nissan's operating margin fell from **4.5% in FY2023 to 0.5% in FY2025**;
+  management's FY2026 forecast is 1.5%.
+- In FY2025, **North America** earned the most operating profit (JPY 68.7 billion)
+  while **Europe** lost JPY 54.1 billion; Europe was loss-making in every period
+  loaded.
+- The Q1 FY2026 margin of 2.6% was helped by one-time US tariff-related gains,
+  according to Nissan's own release, so it is not yet proof of a durable recovery.
+
+## 10. Project Progress
 
 - [x] Step 1: Environment and repository setup
 - [x] Step 2: Data acquisition and validation
 - [x] Step 3: Data model (SQL star schema)
-- [ ] Step 4: ETL and cleaning
+- [x] Step 4: ETL and cleaning (one-command pipeline)
 - [ ] Step 5: SQL analysis
 - [ ] Step 6-10: Python analysis, Excel scenario model, recommendations
 - [ ] Step 11: Power BI dashboard
 - [ ] Step 12-14: Report, slides, final polish
 
-## 9. Key Findings
+## 11. Key Findings
 
 _To be completed at the end of the project._
 
-## 10. Author
+## 12. Author
 
 **<Your Name>**: Software Engineer, AI/ML Engineer and Data Scientist
 [LinkedIn](https://www.linkedin.com/in/your-profile) - [GitHub](https://github.com/your-username)
