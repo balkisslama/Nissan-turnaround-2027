@@ -19,10 +19,9 @@ import sys
 
 from db_utils import RAW_DIR, connect
 
-results = {"passed": 0, "failed": 0}
+results = {"passed": 0, "failed": 0} 
 
-
-def check(ok: bool, message: str) -> None:
+def check(ok: bool, message: str) -> None: 
     """Print one PASS/FAIL line and update the counters."""
     print(f"[{'PASS' if ok else 'FAIL'}] {message}")
     results["passed" if ok else "failed"] += 1

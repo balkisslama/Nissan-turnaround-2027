@@ -1,0 +1,9 @@
+market,level,q1_fy2025,q1_fy2026,change_thousand,change_pct
+Total,total,707,701,-6,-0.8
+Others,region,81,66,-15,-18.5
+Europe,region,75,64,-11,-14.7
+Japan,region,87,88,1,1.1
+Asia,region,150,154,4,2.7
+North America,region,315,328,13,4.1
+China,country,121,130,9,7.4
+USA,country,221,243,22,10.0

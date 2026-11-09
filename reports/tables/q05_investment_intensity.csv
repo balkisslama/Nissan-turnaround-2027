@@ -1,0 +1,5 @@
+period_id,net_sales_bn,rnd_bn,rnd_pct_of_sales,capex_bn,capex_pct_of_sales,depreciation_bn,capex_to_depreciation
+FY2025,12007.9,562.5,4.7,499.2,4.2,261.4,1.91
+FY2026F,13000.0,550.0,4.2,480.0,3.7,250.0,1.92
+Q1_FY2025,2706.9,140.3,5.2,127.4,4.7,63.6,2.0
+Q1_FY2026,2964.2,120.2,4.1,113.7,3.8,67.6,1.68
