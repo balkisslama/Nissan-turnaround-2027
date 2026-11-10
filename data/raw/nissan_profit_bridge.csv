@@ -1,0 +1,22 @@
+bridge_id,step,item,item_type,amount_bn,is_derived,note,source_ids
+FY2025_ACTUAL,0,Operating profit FY2024,start,69.8,0,,SCRIPT-Q4FY2025
+FY2025_ACTUAL,1,Foreign exchange,change,-21.7,0,Emerging market currencies; the US dollar was flat year on year,SCRIPT-Q4FY2025
+FY2025_ACTUAL,2,Raw materials,change,-5.0,0,Copper and aluminum,SCRIPT-Q4FY2025
+FY2025_ACTUAL,3,US tariffs,change,-286.0,0,Total negative impact of US tariffs on operating profit,SCRIPT-Q4FY2025
+FY2025_ACTUAL,4,Sales performance,change,-35.0,0,Better mix and US volume but higher selling expenses,SCRIPT-Q4FY2025
+FY2025_ACTUAL,5,Inflation,change,-95.0,0,,SCRIPT-Q4FY2025
+FY2025_ACTUAL,6,Monozukuri cost savings,change,227.0,0,Manufacturing; logistics; R&D and purchasing efficiencies,SCRIPT-Q4FY2025
+FY2025_ACTUAL,7,One-time items,change,148.0,0,Lower US and UK emissions compliance costs and reduced warranty estimates,SCRIPT-Q4FY2025
+FY2025_ACTUAL,8,Other items,change,55.6,0,Sales finance; remarketing and G&A expenses,SCRIPT-Q4FY2025
+FY2025_ACTUAL,9,Rounding difference,change,0.3,1,Derived so that the bridge closes: the stated figures are rounded,SCRIPT-Q4FY2025
+FY2025_ACTUAL,10,Operating profit FY2025,end,58.0,0,,SCRIPT-Q4FY2025
+FY2026_OUTLOOK,0,Operating profit FY2025,start,58.0,0,,SCRIPT-Q4FY2025
+FY2026_OUTLOOK,1,Foreign exchange,change,-20.0,0,Outlook assumes JPY 150 per USD,SCRIPT-Q4FY2025
+FY2026_OUTLOOK,2,Raw materials,change,-85.0,0,Aluminum and oil risks,SCRIPT-Q4FY2025
+FY2026_OUTLOOK,3,US tariffs,change,30.0,0,Tariff burden improves with Japan exports to the US at 15 percent,SCRIPT-Q4FY2025
+FY2026_OUTLOOK,4,Sales performance,change,157.0,1,NOT stated in the script: derived so the bridge closes; most likely volume and mix; the outlook assumed 3.3 million units and that was later cut to 3.15 million,SCRIPT-Q4FY2025
+FY2026_OUTLOOK,5,Inflation,change,-60.0,0,,SCRIPT-Q4FY2025
+FY2026_OUTLOOK,6,Monozukuri cost savings,change,340.0,0,Improvement in manufacturing costs: fixed and variable cost savings,SCRIPT-Q4FY2025
+FY2026_OUTLOOK,7,One-time items,change,-150.0,0,FY2025 one-time gains do not repeat,SCRIPT-Q4FY2025
+FY2026_OUTLOOK,8,Other items,change,-70.0,0,,SCRIPT-Q4FY2025
+FY2026_OUTLOOK,9,Operating profit FY2026 outlook,end,200.0,0,,SCRIPT-Q4FY2025
