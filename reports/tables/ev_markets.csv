@@ -1,0 +1,57 @@
+market,year,sales_million
+China,2018,1.09
+China,2019,1.07
+China,2020,1.15
+China,2021,3.25
+China,2022,6.0
+China,2023,8.2
+China,2024,11.3
+China,2025,13.3
+Europe,2018,0.39
+Europe,2019,0.57
+Europe,2020,1.38
+Europe,2021,2.3
+Europe,2022,2.6
+Europe,2023,3.2
+Europe,2024,3.19
+Europe,2025,4.3
+France,2018,0.048
+France,2019,0.064
+France,2020,0.185
+France,2021,0.31
+France,2022,0.34
+France,2023,0.47
+France,2024,0.45
+France,2025,0.45
+Germany,2018,0.067
+Germany,2019,0.108
+Germany,2020,0.39
+Germany,2021,0.69
+Germany,2022,0.83
+Germany,2023,0.7
+Germany,2024,0.57
+Germany,2025,0.86
+Japan,2018,0.05
+Japan,2019,0.039
+Japan,2020,0.03
+Japan,2021,0.045
+Japan,2022,0.097
+Japan,2023,0.14
+Japan,2024,0.103
+Japan,2025,0.102
+United Kingdom,2018,0.062
+United Kingdom,2019,0.075
+United Kingdom,2020,0.178
+United Kingdom,2021,0.31
+United Kingdom,2022,0.37
+United Kingdom,2023,0.45
+United Kingdom,2024,0.55
+United Kingdom,2025,0.7
+United States,2018,0.36
+United States,2019,0.325
+United States,2020,0.294
+United States,2021,0.63
+United States,2022,0.99
+United States,2023,1.39
+United States,2024,1.52
+United States,2025,1.53
