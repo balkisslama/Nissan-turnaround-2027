@@ -1,0 +1,11 @@
+parameter,value,unit,origin,note
+outlook_operating_profit_bn,200.0,JPY bn,Nissan,FY2026 outlook (kept in August 2026)
+retail_volume_fy2025,3151.0,thousand cars,Nissan,Actual FY2025 global retail
+retail_volume_outlook_original,3300.0,thousand cars,Nissan,May 2026 outlook
+retail_volume_outlook_revised,3150.0,thousand cars,Nissan,Cut announced 3 Aug 2026
+sales_performance_outlook_bn,157.0,JPY bn,DERIVED,Not stated by Nissan: closes the bridge
+profit_per_extra_car,1.0537,JPY million,DERIVED,Sales performance / extra cars in the original outlook (assumes all of it is volume)
+volume_cut_impact_bn,-158.1,JPY bn,DERIVED,"Revised minus original volume, times profit per extra car"
+tariff_burden_fy2025_bn,286.0,JPY bn,Nissan,Total tariff impact on FY2025 profit
+tariff_burden_fy2026_bn,256.0,JPY bn,DERIVED,FY2025 burden minus the 30 bn improvement
+usd_jpy_assumption,150.0,JPY per USD,Nissan,Outlook assumption

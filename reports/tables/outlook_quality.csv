@@ -1,0 +1,6 @@
+measure,operating_profit_bn,operating_margin_pct,note
+"FY2026 outlook, as published",200.0,1.54,Nissan's outlook of May and August 2026
+FY2026 outlook without the derived sales performance,43.0,0.33,"Sales performance of +157 bn is derived by us, not stated by Nissan"
+"FY2025 operating profit, as reported",58.0,0.48,Reported
+FY2025 without one-time gains,-90.0,-0.75,Removes the +148 bn of one-time items (illustrative arithmetic)
+FY2025 without one-time gains and without US tariffs,196.0,1.63,Also adds back the 286 bn tariff cost (illustrative arithmetic)

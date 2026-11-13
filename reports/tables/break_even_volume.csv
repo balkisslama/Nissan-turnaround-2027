@@ -1,0 +1,4 @@
+case,profit_per_extra_car_million_yen,break_even_volume_thousand,headroom_thousand,headroom_pct
+low,0.527,2770.0,380.0,12.1
+central,1.054,2960.0,190.0,6.0
+high,1.581,3023.0,127.0,4.0
