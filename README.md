@@ -208,25 +208,39 @@ python src/check_driver_analysis.py    # 12 checks: independent recalculation in
 
 All derived values are flagged and illustrative: see [`docs/scenario_drivers.md`](docs/scenario_drivers.md).
 
-## 12. Quality Assurance
+## 12. Excel Scenario Model
+
+```powershell
+python src/build_scenario_model.py     # builds excel/nissan_scenario_model.xlsx (live formulas)
+# open the file in Excel, press Ctrl+S, then:
+python src/check_scenario_model.py     # 15 checks, incl. Excel vs an independent Python calculation
+```
+
+Sheets: Guide, Inputs (levers and a scenario dropdown), Model, Summary (with a chart) and Sensitivity.
+Base reproduces Nissan's FY2026 outlook of 200 bn yen; with the default (illustrative) levers the
+Downside gives about **-19 bn** and the Upside about **+303 bn**. Volume, the delivery of cost savings and
+of the offsets to the volume cut matter most. Details and limits: [`docs/scenario_model.md`](docs/scenario_model.md).
+
+## 13. Quality Assurance
 
 Every layer is tested, and answers are always recalculated with a second,
 independent method:
 
-| Layer              | Command                               | Checks |
-| ------------------ | ------------------------------------- | ------ |
-| Raw data           | `python src/validate_raw_data.py`     | 37     |
-| Database rules     | `python src/test_schema.py`           | 37     |
-| ETL pipeline       | `python src/run_etl.py`               | 45     |
-| SQL analysis       | `python src/check_sql_analysis.py`    | 22     |
-| Profit bridge data | `python src/validate_bridge_data.py`  | 14     |
-| Charts             | `python src/check_charts.py`          | 18     |
-| Market analysis    | `python src/check_market_analysis.py` | 15     |
-| Driver analysis    | `python src/check_driver_analysis.py` | 12     |
+| Layer                | Command                               | Checks |
+| -------------------- | ------------------------------------- | ------ |
+| Raw data             | `python src/validate_raw_data.py`     | 37     |
+| Database rules       | `python src/test_schema.py`           | 37     |
+| ETL pipeline         | `python src/run_etl.py`               | 45     |
+| SQL analysis         | `python src/check_sql_analysis.py`    | 22     |
+| Profit bridge data   | `python src/validate_bridge_data.py`  | 14     |
+| Charts               | `python src/check_charts.py`          | 18     |
+| Market analysis      | `python src/check_market_analysis.py` | 15     |
+| Driver analysis      | `python src/check_driver_analysis.py` | 12     |
+| Excel scenario model | `python src/check_scenario_model.py`  | 15     |
 
-In total the project runs **200 automated checks**.
+In total the project runs **215 automated checks**.
 
-## 13. Project Progress
+## 14. Project Progress
 
 - [x] Step 1: Environment and repository setup
 - [x] Step 2: Data acquisition and validation
@@ -235,15 +249,16 @@ In total the project runs **200 automated checks**.
 - [x] Step 5: SQL analysis (17 queries, independently verified)
 - [x] Step 6: Python analysis (official profit bridge, 11 charts, market statistics, EV markets)
 - [x] Step 7: Profit drivers, break-even headroom and sensitivities
-- [ ] Steps 8-10: Excel scenario model, peer benchmark, recommendations
+- [x] Step 8: Excel scenario model (Downside, Base, Upside)
+- [ ] Steps 9-10: Peer benchmark, recommendations
 - [ ] Step 11: Power BI dashboard
 - [ ] Step 12-14: Report, slides, final polish
 
-## 14. Key Findings
+## 15. Key Findings
 
 _To be completed at the end of the project._
 
-## 15. Author
+## 16. Author
 
 **<Your Name>**: Software Engineer, AI/ML Engineer and Data Scientist
 [LinkedIn](https://www.linkedin.com/in/your-profile) - [GitHub](https://github.com/your-username)
